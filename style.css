@@ -1,0 +1,49 @@
+body {
+    background-image: url('./image.jpg');
+    color:white;
+}
+
+#song-list {
+  background-color:black;
+  color:white;
+  display:flex;
+  height: 412px;
+  width: 329px;
+  border: 5px solid white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  border-radius: 10px;
+  float: left;
+  overflow:auto;
+  margin-left:45px;
+  margin-bottom:10px;
+}
+
+.album-art{
+  height: 200px;
+  margin-left:51px;
+}
+
+.btn {
+    font-size: 20px;
+    color:black;
+    background-color: lightseagreen;
+    align-items: center;
+    border-color:teal;
+    border-radius: 5px;
+
+}
+
+.formBox {
+    border-color:teal;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.fa{
+    font-size: 50px;
+    color:teal;
+}
