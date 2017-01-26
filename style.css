@@ -25,6 +25,8 @@ body {
 .album-art{
   height: 200px;
   margin-left:2%;
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
