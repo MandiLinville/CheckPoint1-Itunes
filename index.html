@@ -3,7 +3,6 @@
 <head>
     <title>Itunes</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
@@ -13,19 +12,20 @@
         <div>
             <h1 id='title'><i class="fa fa-music" aria-hidden="true"></i> Mandi's Music Box <i class="fa fa-music" aria-hidden="true"></i></h1>
             <form class="form-inline" onsubmit="itunesCtrl.getMusic(event)">
-<!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
-<div class="form-group">
-    <input type="text" class="form-control formBox" name="artist" size='36' placeholder="Hello... Is it me you're looking for?"
-    />
-    <button type="submit" class="btn btn-primary btn-large" id="get-music-button">Get Music</button>
-</div>
-</form>
+                <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+                <div class="form-group">
+                    <input type="text" class="form-control formBox" name="artist" size='36' placeholder="Hello... Is it me you're looking for?"
+                    />
+                    <button type="submit" class="btn btn-primary btn-large" id="get-music-button">Get Music</button>
+                </div>
+            </form>
 
-<div class="container"><center>
+            <div class="container">
+                <center>
 
-    <div id="songs" class="row">
+                    <div id="songs" class="row">
 
-        <!--<div id="song-list" class='col-md-4'>
+                        <!--<div id="song-list" class='col-md-4'>
             <div class="img-container">
             <img class='album-art' src='http://placehold.it/50x50' </img>
             <h3 class="title">Title</h3>
@@ -35,12 +35,14 @@
             </h4><audio controls><source src="song.preview" type="audio/mpeg"></audio></h4>
             </div>
         </div>-->
-    </div></center>
-</div>
+                    </div>
+                </center>
+            </div>
 
-<script src='itunes-service.js'></script>
-<script src='app.js'></script>
-<center>
-    </body>
+            <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+            <script src='itunes-service.js'></script>
+            <script src='app.js'></script>
+            <center>
+</body>
 
-    </html>
+</html>
